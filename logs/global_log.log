@@ -1,0 +1,701 @@
+2025-02-23 16:39:12,848 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:39:12,849 [INFO] Loading model from extracted files
+2025-02-23 16:39:22,323 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:39:22,323 [INFO] Loading model from extracted files
+2025-02-23 16:39:25,075 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:39:25,076 [INFO] Loading model from extracted files
+2025-02-23 16:39:36,909 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:39:36,910 [INFO] Loading model from extracted files
+2025-02-23 16:39:42,509 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:39:42,510 [INFO] Loading model from extracted files
+2025-02-23 16:40:48,091 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:40:48,092 [INFO] Loading model from extracted files
+2025-02-23 16:40:52,308 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:40:52,309 [INFO] Loading model from extracted files
+2025-02-23 16:40:52,389 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:40:52,390 [INFO] Loading model from extracted files
+2025-02-23 16:40:52,394 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 16:40:52,395 [DEBUG] matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-02-23 16:40:53,567 [ERROR] HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/../../src/utils/extract_youtube_audio.py", line 29, in extract_audio
+    self.audio = self.data.streams.get_audio_only()
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 160, in streaming_data
+    self.bypass_age_gate()
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 257, in bypass_age_gate
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+2025-02-23 16:40:53,574 [INFO] Exiting extract_audio()
+2025-02-23 16:44:45,040 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:44:45,040 [INFO] Loading model from extracted files
+2025-02-23 16:44:48,970 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:44:48,970 [INFO] Loading model from extracted files
+2025-02-23 16:44:54,144 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:44:54,144 [INFO] Loading model from extracted files
+2025-02-23 16:44:55,923 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:44:55,924 [INFO] Loading model from extracted files
+2025-02-23 16:45:14,009 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:45:14,009 [INFO] Loading model from extracted files
+2025-02-23 16:45:14,011 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:45:14,044 [INFO] Loading model from extracted files
+2025-02-23 16:45:17,133 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:45:17,134 [INFO] Loading model from extracted files
+2025-02-23 16:45:22,526 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:45:22,527 [INFO] Loading model from extracted files
+2025-02-23 16:45:23,756 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:45:23,757 [INFO] Loading model from extracted files
+2025-02-23 16:46:25,060 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:46:25,060 [INFO] Loading model from extracted files
+2025-02-23 16:46:26,016 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:46:26,017 [INFO] Loading model from extracted files
+2025-02-23 16:46:31,094 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:46:31,094 [INFO] Loading model from extracted files
+2025-02-23 16:46:32,303 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:46:32,304 [INFO] Loading model from extracted files
+2025-02-23 16:46:37,525 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:46:37,526 [INFO] Loading model from extracted files
+2025-02-23 16:51:31,500 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:51:31,500 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:51:31,500 [INFO] Loading model from extracted files
+2025-02-23 16:51:31,500 [INFO] Loading model from extracted files
+2025-02-23 16:51:33,562 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:51:33,563 [INFO] Loading model from extracted files
+2025-02-23 16:51:38,676 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:51:38,677 [INFO] Loading model from extracted files
+2025-02-23 16:51:39,550 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:51:39,551 [INFO] Loading model from extracted files
+2025-02-23 16:52:22,531 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:52:22,531 [INFO] Loading model from extracted files
+2025-02-23 16:54:18,143 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:54:18,143 [INFO] Loading model from extracted files
+2025-02-23 16:54:19,797 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:54:19,798 [INFO] Loading model from extracted files
+2025-02-23 16:54:26,574 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:54:26,574 [INFO] Loading model from extracted files
+2025-02-23 16:54:27,653 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:54:27,653 [INFO] Loading model from extracted files
+2025-02-23 16:54:31,517 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:54:31,517 [INFO] Loading model from extracted files
+2025-02-23 16:54:32,529 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:54:32,529 [INFO] Loading model from extracted files
+2025-02-23 16:54:35,520 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:54:35,521 [INFO] Loading model from extracted files
+2025-02-23 16:55:06,425 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:55:06,425 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:55:06,426 [INFO] Loading model from extracted files
+2025-02-23 16:55:06,426 [INFO] Loading model from extracted files
+2025-02-23 16:55:09,388 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:55:09,388 [INFO] Loading model from extracted files
+2025-02-23 16:55:09,562 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:55:09,562 [INFO] Loading model from extracted files
+2025-02-23 16:55:09,715 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:55:09,717 [INFO] Loading model from extracted files
+2025-02-23 16:55:09,823 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:55:09,823 [INFO] Loading model from extracted files
+2025-02-23 16:55:45,106 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:55:45,107 [INFO] Loading model from extracted files
+2025-02-23 16:55:47,667 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 16:55:47,667 [INFO] Loading model from extracted files
+2025-02-23 16:55:47,671 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 16:55:47,672 [DEBUG] matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-02-23 16:55:48,720 [ERROR] HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/../../src/utils/extract_youtube_audio.py", line 29, in extract_audio
+    self.audio = self.data.streams.get_audio_only()
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 160, in streaming_data
+    self.bypass_age_gate()
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 257, in bypass_age_gate
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+2025-02-23 16:55:48,726 [INFO] Exiting extract_audio()
+2025-02-23 17:00:08,084 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:00:08,085 [INFO] Downloading from remote
+2025-02-23 17:00:12,655 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:00:25,077 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:00:25,078 [INFO] Downloading from remote
+2025-02-23 17:00:25,788 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:00:26,418 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:00:26,419 [INFO] Downloading from remote
+2025-02-23 17:00:26,978 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:00:26,980 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:00:26,980 [DEBUG] matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-02-23 17:00:28,534 [ERROR] HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/../../src/utils/extract_youtube_audio.py", line 29, in extract_audio
+    self.audio = self.data.streams.get_audio_only()
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 160, in streaming_data
+    self.bypass_age_gate()
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 257, in bypass_age_gate
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+2025-02-23 17:00:28,540 [INFO] Exiting extract_audio()
+2025-02-23 17:00:47,249 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:00:47,250 [INFO] Downloading from remote
+2025-02-23 17:00:47,948 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:00:51,992 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:00:51,993 [INFO] Downloading from remote
+2025-02-23 17:00:52,534 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:00:52,867 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:00:52,868 [INFO] Downloading from remote
+2025-02-23 17:00:53,406 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:00:59,467 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:00:59,468 [INFO] Downloading from remote
+2025-02-23 17:01:00,045 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:01:16,748 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:01:16,748 [INFO] Downloading from remote
+2025-02-23 17:01:17,341 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:01:17,342 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:01:17,343 [DEBUG] matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-02-23 17:01:18,526 [ERROR] HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/../../src/utils/extract_youtube_audio.py", line 29, in extract_audio
+    self.audio = self.data.streams.get_audio_only()
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 160, in streaming_data
+    self.bypass_age_gate()
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 257, in bypass_age_gate
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+2025-02-23 17:01:18,529 [INFO] Exiting extract_audio()
+2025-02-23 17:02:44,853 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app", inode=35171048, flags=20400, id=68668311): is_directory, is_inode_meta_mod
+2025-02-23 17:02:44,854 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:02:44,890 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=18000, id=68668377): is_file, is_xattr_mod
+2025-02-23 17:02:44,890 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:02:44,901 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=18000, id=68668377): is_file, is_xattr_mod
+2025-02-23 17:02:44,901 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:02:44,961 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages", inode=35171064, flags=20400, id=68668404): is_directory, is_inode_meta_mod
+2025-02-23 17:02:44,961 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages", inode=35171064, flags=20400, id=68668404): is_directory, is_inode_meta_mod
+2025-02-23 17:02:44,962 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:02:44,962 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:07:59,668 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:07:59,668 [INFO] Downloading from remote
+2025-02-23 17:08:00,274 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:08:00,454 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:08:00,454 [INFO] Downloading from remote
+2025-02-23 17:08:00,985 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:08:10,119 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app", inode=35171048, flags=20400, id=68890675): is_directory, is_inode_meta_mod
+2025-02-23 17:08:10,119 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:08:10,169 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages", inode=35171064, flags=20400, id=68890756): is_directory, is_inode_meta_mod
+2025-02-23 17:08:10,170 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:08:10,180 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages", inode=35171064, flags=20400, id=68890756): is_directory, is_inode_meta_mod
+2025-02-23 17:08:10,181 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:08:19,120 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:08:19,121 [INFO] Downloading from remote
+2025-02-23 17:08:19,669 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:08:20,332 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:08:20,333 [INFO] Downloading from remote
+2025-02-23 17:08:20,903 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:08:36,511 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:08:36,512 [INFO] Downloading from remote
+2025-02-23 17:08:37,081 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:08:51,363 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:08:51,365 [INFO] Downloading from remote
+2025-02-23 17:08:51,963 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:08:53,998 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:08:53,999 [INFO] Downloading from remote
+2025-02-23 17:08:54,548 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:08:57,444 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:08:57,444 [INFO] Downloading from remote
+2025-02-23 17:08:58,070 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:09:23,550 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=18000, id=68941568): is_file, is_xattr_mod
+2025-02-23 17:09:23,551 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=18000, id=68941568): is_file, is_xattr_mod
+2025-02-23 17:09:23,551 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:09:23,552 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:09:55,247 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:09:55,247 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:09:55,247 [INFO] Downloading from remote
+2025-02-23 17:09:55,248 [INFO] Downloading from remote
+2025-02-23 17:09:55,899 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:09:55,899 [INFO] Loading model from extracted files
+2025-02-23 17:09:56,172 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:09:56,225 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:09:59,512 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:09:59,512 [INFO] Downloading from remote
+2025-02-23 17:10:00,056 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:10:00,683 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:10:00,683 [INFO] Loading model from extracted files
+2025-02-23 17:10:02,031 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:10:02,032 [INFO] Loading model from extracted files
+2025-02-23 17:10:51,236 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:10:51,236 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:10:51,236 [INFO] Downloading from remote
+2025-02-23 17:10:51,236 [INFO] Downloading from remote
+2025-02-23 17:10:51,495 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:10:51,496 [INFO] Downloading from remote
+2025-02-23 17:10:51,522 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:10:51,522 [INFO] Loading model from extracted files
+2025-02-23 17:10:53,069 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:10:53,070 [INFO] Loading model from extracted files
+2025-02-23 17:10:55,777 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:11:18,505 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:11:18,598 [INFO] Model 'base.en' downloaded successfully.
+2025-02-23 17:11:19,104 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=18000, id=68963060): is_file, is_xattr_mod
+2025-02-23 17:11:19,105 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app", inode=35171048, flags=20400, id=68963054): is_directory, is_inode_meta_mod
+2025-02-23 17:11:19,105 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=18000, id=68963060): is_file, is_xattr_mod
+2025-02-23 17:11:19,105 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages", inode=35171064, flags=20400, id=68963069): is_directory, is_inode_meta_mod
+2025-02-23 17:11:19,105 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages", inode=35171064, flags=20400, id=68963069): is_directory, is_inode_meta_mod
+2025-02-23 17:11:19,105 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:11:19,106 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:11:19,106 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:11:19,107 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:11:19,107 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:11:31,444 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:11:31,445 [INFO] Loading model from extracted files
+2025-02-23 17:11:32,646 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:11:32,647 [INFO] Loading model from extracted files
+2025-02-23 17:21:46,985 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:21:46,985 [INFO] Loading model from extracted files
+2025-02-23 17:28:26,403 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:28:27,017 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:28:29,534 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:28:30,120 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:28:31,423 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:28:31,981 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:28:32,636 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:28:33,187 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:28:48,944 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:28:49,502 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:28:51,887 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:28:52,445 [INFO] Model 'base.en' loaded successfully.
+2025-02-23 17:29:29,659 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:29:30,198 [INFO] Model 'base.en' loaded successfully.
+2025-02-23 17:29:30,840 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:29:31,357 [INFO] Model 'base.en' loaded successfully.
+2025-02-23 17:29:31,358 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:29:31,359 [DEBUG] matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-02-23 17:29:32,460 [ERROR] HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/../../src/utils/extract_youtube_audio.py", line 29, in extract_audio
+    self.audio = self.data.streams.get_audio_only()
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 160, in streaming_data
+    self.bypass_age_gate()
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 257, in bypass_age_gate
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+2025-02-23 17:29:32,469 [INFO] Exiting extract_audio()
+2025-02-23 17:29:35,020 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:29:35,554 [INFO] Model 'base.en' loaded successfully.
+2025-02-23 17:29:38,254 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:29:38,781 [INFO] Model 'base.en' loaded successfully.
+2025-02-23 17:33:32,685 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:33:33,192 [INFO] Model 'base.en' loaded successfully.
+2025-02-23 17:34:06,427 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:34:06,970 [INFO] Model 'base.en' loaded successfully.
+2025-02-23 17:34:07,768 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:34:08,303 [INFO] Model 'base.en' loaded successfully.
+2025-02-23 17:34:08,305 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:34:08,305 [DEBUG] matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-02-23 17:34:09,601 [ERROR] HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/../../src/utils/extract_youtube_audio.py", line 29, in extract_audio
+    self.audio = self.data.streams.get_audio_only()
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 160, in streaming_data
+    self.bypass_age_gate()
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 257, in bypass_age_gate
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+2025-02-23 17:34:09,608 [INFO] Exiting extract_audio()
+2025-02-23 17:34:11,137 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:34:11,669 [INFO] Model 'base.en' loaded successfully.
+2025-02-23 17:34:44,406 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=11400, id=69075118): is_file, is_inode_meta_mod, is_modified
+2025-02-23 17:34:44,406 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=11400, id=69075118): is_file, is_inode_meta_mod, is_modified
+2025-02-23 17:34:44,406 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:34:44,407 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:34:44,831 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=410000, id=69075163): is_cloned, is_file
+2025-02-23 17:34:44,831 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=410000, id=69075163): is_cloned, is_file
+2025-02-23 17:34:49,695 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=418000, id=69075902): is_cloned, is_file, is_xattr_mod
+2025-02-23 17:34:49,695 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app", inode=35171048, flags=20400, id=69075896): is_directory, is_inode_meta_mod
+2025-02-23 17:34:49,695 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:34:49,695 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=418000, id=69075902): is_cloned, is_file, is_xattr_mod
+2025-02-23 17:34:49,696 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:34:49,696 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:34:49,706 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages", inode=35171064, flags=20400, id=69075908): is_directory, is_inode_meta_mod
+2025-02-23 17:34:49,706 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages", inode=35171064, flags=20400, id=69075908): is_directory, is_inode_meta_mod
+2025-02-23 17:34:49,706 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:34:49,707 [DEBUG] queue_event DirModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-02-23 17:35:16,276 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:35:16,791 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:35:22,364 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:35:22,938 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:35:27,356 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:35:27,896 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:35:28,939 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:35:29,469 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:35:29,472 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:35:29,473 [DEBUG] matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-02-23 17:35:30,879 [ERROR] HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/../../src/utils/extract_youtube_audio.py", line 29, in extract_audio
+    self.audio = self.data.streams.get_audio_only()
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 160, in streaming_data
+    self.bypass_age_gate()
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 257, in bypass_age_gate
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+2025-02-23 17:35:30,886 [INFO] Exiting extract_audio()
+2025-02-23 17:41:46,391 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:41:46,931 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:41:55,408 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:41:55,962 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:41:56,302 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:41:56,858 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:41:56,860 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:43:14,133 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:43:14,668 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:43:16,177 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:43:16,729 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:43:29,852 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:43:29,949 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:43:30,765 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:43:30,850 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:43:30,852 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:43:30,853 [DEBUG] matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-02-23 17:43:31,991 [ERROR] Error extracting audio: HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/../../src/utils/extract_youtube_audio.py", line 35, in extract_audio
+    self.audio = self.data.streams.get_audio_only()
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 160, in streaming_data
+    self.bypass_age_gate()
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/__main__.py", line 257, in bypass_age_gate
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/chitrakumarsai/miniforge3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+2025-02-23 17:43:31,996 [INFO] Exiting extract_audio()
+2025-02-23 17:44:57,600 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:44:58,129 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:45:11,146 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:45:11,685 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:45:12,686 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:45:13,241 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:45:13,243 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:45:22,262 [INFO] Audio downloaded and saved as data/uploaded/youtube_audio.mp4
+2025-02-23 17:45:22,262 [INFO] Exiting extract_audio()
+2025-02-23 17:45:59,006 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:45:59,592 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:46:10,130 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:46:10,700 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:46:11,283 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:46:11,808 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:46:11,810 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:46:20,365 [INFO] Audio downloaded and saved as data/uploaded/youtube_audio.mp4
+2025-02-23 17:46:20,365 [INFO] Exiting extract_audio()
+2025-02-23 17:47:11,296 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:47:11,816 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:47:18,895 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:47:19,430 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:47:20,154 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:47:20,689 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:47:20,690 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:47:29,367 [INFO] Audio downloaded and saved as data/uploaded/youtube_audio.mp4
+2025-02-23 17:47:29,367 [INFO] Exiting extract_audio()
+2025-02-23 17:50:04,711 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:50:05,267 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:50:12,583 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:50:13,136 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:50:13,668 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:50:14,197 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:50:14,199 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:50:22,689 [INFO] Audio downloaded and saved as data/uploaded/youtube_audio.mp4
+2025-02-23 17:50:22,689 [INFO] Exiting extract_audio()
+2025-02-23 17:51:03,078 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:51:03,624 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:51:12,495 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:51:13,038 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:51:13,584 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:51:14,125 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:51:14,127 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:51:22,801 [INFO] Audio downloaded and saved as data/uploaded/youtube_audio.mp3
+2025-02-23 17:51:22,801 [INFO] Exiting extract_audio()
+2025-02-23 17:52:28,286 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=11400, id=69118634): is_file, is_inode_meta_mod, is_modified
+2025-02-23 17:52:28,288 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=11400, id=69118634): is_file, is_inode_meta_mod, is_modified
+2025-02-23 17:52:28,289 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:52:28,292 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:52:28,498 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=410000, id=69118659): is_cloned, is_file
+2025-02-23 17:52:28,499 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=410000, id=69118659): is_cloned, is_file
+2025-02-23 17:52:33,131 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=418000, id=69119278): is_cloned, is_file, is_xattr_mod
+2025-02-23 17:52:33,131 [DEBUG] NativeEvent(path="/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py", inode=35171066, flags=418000, id=69119278): is_cloned, is_file, is_xattr_mod
+2025-02-23 17:52:33,132 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:52:33,132 [DEBUG] queue_event FileModifiedEvent(src_path='/Users/chitrakumarsai/Desktop/Personal/projects/speech-to-text-1/app/pages/Youtube_video.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-02-23 17:52:56,276 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:52:56,794 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:52:57,713 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:52:58,237 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:53:07,178 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:53:07,719 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:53:08,452 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:53:08,982 [INFO] Model 'base' loaded successfully.
+2025-02-23 17:53:08,984 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 17:53:18,605 [INFO] Audio downloaded and saved as data/uploaded/youtube_audio.mp3
+2025-02-23 17:53:18,605 [INFO] Exiting extract_audio()
+2025-02-23 17:53:21,066 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 17:53:21,625 [INFO] Model 'base' loaded successfully.
