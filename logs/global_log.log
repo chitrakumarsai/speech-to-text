@@ -699,3 +699,14 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 2025-02-23 17:53:18,605 [INFO] Exiting extract_audio()
 2025-02-23 17:53:21,066 [INFO] Entered load_model() in WhisperModelManager
 2025-02-23 17:53:21,625 [INFO] Model 'base' loaded successfully.
+2025-02-23 18:01:46,658 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 18:01:47,191 [INFO] Model 'base' loaded successfully.
+2025-02-23 18:01:55,203 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 18:01:55,753 [INFO] Model 'base' loaded successfully.
+2025-02-23 18:01:56,850 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 18:01:57,395 [INFO] Model 'base' loaded successfully.
+2025-02-23 18:01:57,397 [INFO] Entered extract_audio() in YouTubeAudioExtractor class
+2025-02-23 18:02:06,681 [INFO] Audio downloaded and saved as data/uploaded/youtube_audio.mp3
+2025-02-23 18:02:06,681 [INFO] Exiting extract_audio()
+2025-02-23 18:02:09,230 [INFO] Entered load_model() in WhisperModelManager
+2025-02-23 18:02:09,848 [INFO] Model 'base' loaded successfully.
