@@ -134,3 +134,4 @@ virtualenv==20.25.0
 watchdog==4.0.0
 wget==3.2
 zipp==3.17.0
+streamlit_extras
